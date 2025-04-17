@@ -90,7 +90,7 @@ int main()
 			}
 		}
 
-		if (slc::get_command(event, "rankthem")) { // /rankthem <rijeci odvojene razmakom>
+		if (slc::get_command(event, "rankthem")) { // /rankthem <riejci odvojene razmakom>
 			if (!slc::parameter_exists(event, "ponudjeno")) {
 				event.reply("Nisi zadao izbor.");
 				co_return;
